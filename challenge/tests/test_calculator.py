@@ -1,5 +1,5 @@
 import pytest
-from challenge.calculator import Calculator
+from challenge.calculator_solution import Calculator
 
 def test_no_error():
     with Calculator(TypeError, ValueError, NameError, ZeroDivisionError) as c:
